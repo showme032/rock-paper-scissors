@@ -10,7 +10,7 @@ const buttons = document.querySelectorAll('button');
 // Play a round when any button is clicked
 buttons.forEach((button) => {
   button.addEventListener('click', () => {
-    playRound(button.getAttribute('id'), getComputerChoice());
+    playRound(button.getAttribute('id'), getComputerChoice());  
   })
 });
 
