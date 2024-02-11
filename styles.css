@@ -4,14 +4,13 @@ body {
 
 
 .move-display {
+    padding: 25px 0px;
     display: flex;
-    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
 }
 .move-display p {
     font-size: 1.3rem;
-    /* display: block; */
 }
 
 .scoreboard {
@@ -46,9 +45,11 @@ body {
   padding: 8px 16px;
   border-radius: 8px;
   border: none;
-
   background-color: #1D3557;
   color: #F1FAEE;
   font-size: 16px;
   font-weight: 500;
+}
+.controls button:hover {
+    cursor: pointer;
 }
