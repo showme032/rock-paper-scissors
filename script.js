@@ -27,7 +27,7 @@ function playRound(playerSelection, computerSelection) {
     player.textContent = `You: ${++playerScore}`;
     document.querySelector('#roundResult').textContent = `You won the round! Computer got ${computerSelection}.`;
 
-    if (playerScore === 5) {
+    if (playerScore === 3) {
       alert(`You won the game ${playerScore}:${computerScore}!`);
       location.reload();
     }
